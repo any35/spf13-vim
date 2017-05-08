@@ -112,7 +112,7 @@ The simpliest (and safest) way to update is to simply rerun the installer. It wi
 
 ```bash
 
-    curl https://j.mp/spf13-vim3 -L -o - | sh
+    export REPO_URI=https://github.com/any35/spf13-vim.git && curl https://j.mp/spf13-vim3 -L -o - | sh
 
 ```
 
