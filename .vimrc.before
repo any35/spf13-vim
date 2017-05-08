@@ -53,6 +53,10 @@
 
     " Enable powerline symbols
     "   let g:airline_powerline_fonts = 1
+    set laststatus=2
+    let g:bufferline_echo = 0
+    let g:airline#extensions#tabline#enabled = 1
+    let g:airline_theme = 'dark'
 
     " vim files directory
     "   let g:spf13_consolidated_directory = <full path to desired directory>
