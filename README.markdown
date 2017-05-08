@@ -33,12 +33,14 @@ The easiest way to install spf13-vim is to use our [automatic installer](https:/
 
 ```bash
 
+    export REPO_URI=https://github.com/any35/spf13-vim.git && \
     curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
 ```
 
 If you have a bash-compatible shell you can run the script directly:
 ```bash
 
+    export REPO_URI=https://github.com/any35/spf13-vim.git && \
     sh <(curl https://j.mp/spf13-vim3 -L)
 ```
 
@@ -112,7 +114,8 @@ The simpliest (and safest) way to update is to simply rerun the installer. It wi
 
 ```bash
 
-    export REPO_URI=https://github.com/any35/spf13-vim.git && curl https://j.mp/spf13-vim3 -L -o - | sh
+    export REPO_URI=https://github.com/any35/spf13-vim.git && \
+    curl https://j.mp/spf13-vim3 -L -o - | sh
 
 ```
 
