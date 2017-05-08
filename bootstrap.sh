@@ -133,6 +133,9 @@ create_symlinks() {
 
     touch  "$target_path/.vimrc.local"
 
+    mkdir -p "$target_path/vim/colors/"
+    lnif "$source_path/colors/molokai.vim" "$target_path/vim/colors/molokai.vim"
+
     ret="$?"
     success "Setting up vim symlinks."
     debug
